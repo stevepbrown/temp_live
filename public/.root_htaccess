@@ -1,0 +1,6 @@
+### This only redirects to the public directory, the Laravel
+### file dwells in the subdirectory
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule . /public/index.php [L]
+</IfModule>

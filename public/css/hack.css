@@ -1,0 +1,23 @@
+/*
+
+Reduce margin /padding on xs 
+
+*/
+
+
+
+
+@media (max-width: 576px) {
+    .container-fluid {
+      margin:0 !important;
+      padding:0 !important;
+    }
+
+    .row {
+       
+            margin:0 !important;
+            padding:0 !important;
+         
+    }
+    
+  }
