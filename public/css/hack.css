@@ -19,5 +19,11 @@ Reduce margin /padding on xs
             padding:0 !important;
          
     }
+
+    .navbar-brand {
+
+        background-size: 100%;
+
+    }
     
   }
