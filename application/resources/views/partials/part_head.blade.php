@@ -10,7 +10,7 @@
     {{-- Add description for SEO --}}
     <meta name="description" content="" />
 
-    <link rel="stylesheet" href="css/combined.css" type="text/css">
+    <link rel="stylesheet" href="css/combined.min.css" type="text/css">
     <link rel="stylesheet" href="css/hack.css" type="text/css">
     {{-- <link rel="stylesheet" href="css/combined.min.css" type="text/css"> --}}
   </head>
