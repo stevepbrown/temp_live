@@ -67,6 +67,31 @@ Reduce margin /padding on xs
       grid-column: 1 / 9;
     }
   }
-  
 
+
+  /*
+
+    Video div layout properties
+
+  */
+  .grid-item#div-gi-video {
+    grid-row: 7 / 13;
+    grid-column: 1 /13;
+  }
   
+  @media (min-width: 768px) {
+    .grid-item#div-gi-video {
+      grid-row: 4 / 13;
+      grid-column: 1 / 13;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .grid-item#div-gi-video {
+      grid-row: 3 / 13;
+      grid-column: 1 / 10;
+    }
+
+  }
+
+ 
