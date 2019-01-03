@@ -1,5 +1,14 @@
 {{-- pages.X.blade.php --}}
 @extends('layouts.main')
+
+@section('head')
+
+  @parent
+  <meta name="robots" content="no index, no follow"> 
+
+@endsection
+
+
 @section('main')
   <main id="main">
     <div class="container-fluid">
