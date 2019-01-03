@@ -24,12 +24,12 @@
           <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-mobile':'#div-card-mobile'}}">Mobile-ready</a>
           <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-design':'#div-card-design'}}">Web Design</a>
           <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-amp':'#div-card-amp'}}">Accelerated Mobile Pages (AMP)</a>
-          <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-cms':'#div-card-cms'}}" >Content Managment System (CMS)</a>
-          <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-ecommerce ':'#div-card-ecommerce'}}">E-commerce</a>
+          <a class="dropdown-item hidden" href="{{($title!=='Welcome')? '/#div-card-cms':'#div-card-cms'}}" >Content Managment System (CMS)</a>
+          <a class="dropdown-item hidden" href="{{($title!=='Welcome')? '/#div-card-ecommerce ':'#div-card-ecommerce'}}">E-commerce</a>
           <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-copywriting':'#div-card-copywriting'}}" >Copy Writing</a>
-          <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-seo':'#div-card-seo'}}">Search Engine optimisation (SEO)</a>
-          <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-analytics':'#div-card-analytics'}}">Web Analytics</a>
-          <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-social-media':'#div-card-social-media'}}">Social Media</a>
+          <a class="dropdown-item hidden" href="{{($title!=='Welcome')? '/#div-card-seo':'#div-card-seo'}}">Search Engine optimisation (SEO)</a>
+          <a class="dropdown-item hidden" href="{{($title!=='Welcome')? '/#div-card-analytics':'#div-card-analytics'}}">Web Analytics</a>
+          <a class="dropdown-item hidden" href="{{($title!=='Welcome')? '/#div-card-social-media':'#div-card-social-media'}}">Social Media</a>
           <a class="dropdown-item" href="{{($title!=='Welcome')? '/#div-card-accessibility':'#div-card-accessibility'}}">Accessibility</a>
         </div>
       </li>

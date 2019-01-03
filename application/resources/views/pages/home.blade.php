@@ -36,7 +36,7 @@
       </div>
     </div>
     <!-- CMS -->
-    <div class="col- col-md-6 col-lg-4 col-xl-3">
+    <div class="col- col-md-6 col-lg-4 col-xl-3 hidden">
       <div id="div-card-cms" class="card">
         <i class="fa fa-dashboard fa-4x mx-auto" aria-hidden="true"></i>
         <h5 class="text-center">Content Managment System (CMS)</h5>
@@ -46,7 +46,7 @@
       </div>
     </div>
     <!-- e-commerce -->
-    <div class="col- col-md-6 col-lg-4 col-xl-3">
+    <div class="col- col-md-6 col-lg-4 col-xl-3 hidden">
       <div id="div-card-ecommerce" class="card">
         <i class="fa fa-gbp fa-4x mx-auto" aria-hidden="true"></i>
         <h5 class="text-center">E-commerce</h5>
@@ -66,7 +66,7 @@
       </div>
     </div>
     <!-- SEO -->
-    <div class="col- col-md-6 col-lg-4 col-xl-3">
+    <div class="col- col-md-6 col-lg-4 col-xl-3 hidden">
       <div id="div-card-seo" class="card">
         <i class="fa fa-search fa-4x mx-auto" aria-hidden="true"></i>
         <h5 class="text-center">Search Engine optimisation (SEO)</h5>
@@ -76,7 +76,7 @@
       </div>
     </div>
     <!-- Web analytics-->
-    <div class="col- col-md-6 col-lg-4 col-xl-3">
+    <div class="col- col-md-6 col-lg-4 col-xl-3 hidden">
       <div id="div-card-analytics" class="card">
         <i class="fa fa-area-chart fa-4x mx-auto" aria-hidden="true"></i>
         <h5 class="text-center">Web Analytics</h5>
@@ -87,7 +87,7 @@
             </div>
     </div>
     <!-- Social media -->
-    <div class="col- col-md-6 col-lg-4 col-xl-3">
+    <div class="col- col-md-6 col-lg-4 col-xl-3 hidden">
       <div id="div-card-social-media" class="card">
         <i class="fa fa-facebook-square fa-4x mx-auto" aria-hidden="true"></i>
         <h5 class="text-center">Social Media</h5>

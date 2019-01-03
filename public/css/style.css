@@ -117,7 +117,12 @@ Reduce margin /padding on xs
       grid-column: 3 / 12;
     }
 
+
+
+
 }
 
-
+.hidden {
+  display: none
+}
   
