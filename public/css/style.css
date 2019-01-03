@@ -16,8 +16,6 @@ Reduce margin /padding on xs
 */
 
 
-
-
 @media (max-width: 576px) {
     .container-fluid {
       margin:0 !important;
@@ -118,9 +116,17 @@ Reduce margin /padding on xs
     }
 
 
-
-
+.card .card-body > a[class~="btn"] {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:0;
+    padding-right:0;
+    text-align: center;
 }
+}
+
+
 
 .hidden {
   display: none
