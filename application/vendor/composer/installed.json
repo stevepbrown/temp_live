@@ -2745,59 +2745,6 @@
         "homepage": "https://symfony.com"
     },
     {
-        "name": "nikic/php-parser",
-        "version": "v4.1.1",
-        "version_normalized": "4.1.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/nikic/PHP-Parser.git",
-            "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
-            "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
-            "shasum": ""
-        },
-        "require": {
-            "ext-tokenizer": "*",
-            "php": ">=7.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^6.5 || ^7.0"
-        },
-        "time": "2018-12-26T11:32:39+00:00",
-        "bin": [
-            "bin/php-parse"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "4.1-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "PhpParser\\": "lib/PhpParser"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Nikita Popov"
-            }
-        ],
-        "description": "A PHP parser written in PHP",
-        "keywords": [
-            "parser",
-            "php"
-        ]
-    },
-    {
         "name": "jakub-onderka/php-console-color",
         "version": "v0.2",
         "version_normalized": "0.2.0.0",
@@ -4143,76 +4090,6 @@
         ]
     },
     {
-        "name": "spatie/laravel-cookie-consent",
-        "version": "2.6.0",
-        "version_normalized": "2.6.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/spatie/laravel-cookie-consent.git",
-            "reference": "6bb070ad357b613573ec1a1a32834aa4484c3117"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/6bb070ad357b613573ec1a1a32834aa4484c3117",
-            "reference": "6bb070ad357b613573ec1a1a32834aa4484c3117",
-            "shasum": ""
-        },
-        "require": {
-            "illuminate/cookie": "~5.5.0|~5.6.0|~5.7.0",
-            "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
-            "illuminate/view": "~5.5.0|~5.6.0|~5.7.0",
-            "php": "^7.0"
-        },
-        "require-dev": {
-            "fzaninotto/faker": "~1.4",
-            "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
-            "phpunit/phpunit": "^6.3|^7.0"
-        },
-        "time": "2018-12-29T21:37:48+00:00",
-        "type": "library",
-        "extra": {
-            "laravel": {
-                "providers": [
-                    "Spatie\\CookieConsent\\CookieConsentServiceProvider"
-                ]
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Spatie\\CookieConsent\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Freek Van der Herten",
-                "email": "freek@spatie.be",
-                "homepage": "https://spatie.be",
-                "role": "Developer"
-            },
-            {
-                "name": "Willem Van Bockstal",
-                "email": "willem@spatie.be",
-                "homepage": "https://spatie.be",
-                "role": "Developer"
-            }
-        ],
-        "description": "Make your Laravel app comply with the crazy EU cookie law",
-        "homepage": "https://github.com/spatie/cookie-consent",
-        "keywords": [
-            "comply",
-            "cookie",
-            "cookie-consent",
-            "eu",
-            "law",
-            "spatie"
-        ]
-    },
-    {
         "name": "filp/whoops",
         "version": "2.3.1",
         "version_normalized": "2.3.1.0",
@@ -4504,6 +4381,129 @@
             "assert",
             "check",
             "validate"
+        ]
+    },
+    {
+        "name": "spatie/laravel-cookie-consent",
+        "version": "2.6.1",
+        "version_normalized": "2.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spatie/laravel-cookie-consent.git",
+            "reference": "ad6283a03d1a6d3709eec0e89c85f9e003bd75bd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/ad6283a03d1a6d3709eec0e89c85f9e003bd75bd",
+            "reference": "ad6283a03d1a6d3709eec0e89c85f9e003bd75bd",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/cookie": "~5.5.0|~5.6.0|~5.7.0",
+            "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+            "illuminate/view": "~5.5.0|~5.6.0|~5.7.0",
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "fzaninotto/faker": "~1.4",
+            "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
+            "phpunit/phpunit": "^6.3|^7.0"
+        },
+        "time": "2019-01-14T09:20:17+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Spatie\\CookieConsent\\CookieConsentServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Spatie\\CookieConsent\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Freek Van der Herten",
+                "email": "freek@spatie.be",
+                "homepage": "https://spatie.be",
+                "role": "Developer"
+            },
+            {
+                "name": "Willem Van Bockstal",
+                "email": "willem@spatie.be",
+                "homepage": "https://spatie.be",
+                "role": "Developer"
+            }
+        ],
+        "description": "Make your Laravel app comply with the crazy EU cookie law",
+        "homepage": "https://github.com/spatie/cookie-consent",
+        "keywords": [
+            "comply",
+            "cookie",
+            "cookie-consent",
+            "eu",
+            "law",
+            "spatie"
+        ]
+    },
+    {
+        "name": "nikic/php-parser",
+        "version": "v4.2.0",
+        "version_normalized": "4.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+            "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.5 || ^7.0"
+        },
+        "time": "2019-01-12T16:31:37+00:00",
+        "bin": [
+            "bin/php-parse"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpParser\\": "lib/PhpParser"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
         ]
     }
 ]

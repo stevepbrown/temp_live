@@ -1054,16 +1054,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.1.1",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610"
+                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
-                "reference": "8aae5b59b83bb4d0dbf07b0a835f2680a658f610",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
                 "shasum": ""
             },
             "require": {
@@ -1079,7 +1079,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -1101,7 +1101,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-12-26T11:32:39+00:00"
+            "time": "2019-01-12T16:31:37+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1540,16 +1540,16 @@
         },
         {
             "name": "spatie/laravel-cookie-consent",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-cookie-consent.git",
-                "reference": "6bb070ad357b613573ec1a1a32834aa4484c3117"
+                "reference": "ad6283a03d1a6d3709eec0e89c85f9e003bd75bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/6bb070ad357b613573ec1a1a32834aa4484c3117",
-                "reference": "6bb070ad357b613573ec1a1a32834aa4484c3117",
+                "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/ad6283a03d1a6d3709eec0e89c85f9e003bd75bd",
+                "reference": "ad6283a03d1a6d3709eec0e89c85f9e003bd75bd",
                 "shasum": ""
             },
             "require": {
@@ -1604,7 +1604,7 @@
                 "law",
                 "spatie"
             ],
-            "time": "2018-12-29T21:37:48+00:00"
+            "time": "2019-01-14T09:20:17+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

@@ -60,6 +60,7 @@ Reduce margin /padding on xs
   }
 
   @media (min-width: 768px) {
+   
     .grid-item#div-gi-maintxt {
       grid-row: 1 / 3;
       grid-column: 1 / 8;
@@ -127,8 +128,25 @@ Reduce margin /padding on xs
 }
 
 
-
 .hidden {
   display: none
 }
   
+/* Display lead */
+.display-lead {
+
+  text-align: center;
+  
+}
+
+@media (min-width:768px){
+
+  .display-lead {
+
+    text-align: inherit;
+    
+  }
+
+}
+
+
