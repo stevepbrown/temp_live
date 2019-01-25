@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-// Disabled because closure prevents rout caching
-// Route::middleware('auth:api')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
+
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
